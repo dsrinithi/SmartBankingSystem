@@ -1,0 +1,45 @@
+.root{
+    -fx-background-color: linear-gradient(to right,#0f172a,#1e293b);
+}
+
+.header{
+    -fx-padding:20;
+}
+
+.title{
+    -fx-text-fill:white;
+    -fx-font-size:28;
+    -fx-font-weight:bold;
+}
+
+.label{
+    -fx-text-fill:white;
+}
+
+.balanceTitle{
+    -fx-font-size:18;
+    -fx-text-fill:#cbd5e1;
+}
+
+.balanceValue{
+    -fx-font-size:40;
+    -fx-font-weight:bold;
+    -fx-text-fill:#22c55e;
+}
+
+.cardBtn{
+    -fx-background-color:#3b82f6;
+    -fx-text-fill:white;
+    -fx-font-size:15;
+    -fx-background-radius:15;
+    -fx-padding:12 25;
+}
+
+.button{
+    -fx-background-radius:10;
+}
+
+.table-view{
+    -fx-background-radius:10;
+}
+

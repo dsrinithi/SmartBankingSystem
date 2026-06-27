@@ -1,0 +1,53 @@
+package Main;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage stage) throws Exception {
+
+        FXMLLoader loader =
+                new FXMLLoader(
+                        getClass().getResource("/view/login.fxml"));
+
+        Scene scene =
+                new Scene(loader.load());
+
+        stage.setTitle("Smart Banking System");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+2026-06-23,Withdraw,5000.0,srinithi
+2026-06-23,Deposit,4000.0,srinithi
+2026-06-23,Withdraw,5000.0,shruthigasri
+2026-06-23,Deposit,2000.0,shruthigasri
+2026-06-23,Deposit,2000.0,srimalathi
+2026-06-23,Withdraw,3000.0,srimalathi
+2026-06-23,Deposit,1000.0,shruthigasri
+2026-06-23,Withdraw,3000.0,shruthigasri
+2026-06-23,Deposit,2000.0,srimalathi
+2026-06-23,Withdraw,1000.0,srimalathi
+2026-06-23,Deposit,4500.0,srinithi
+2026-06-23,Withdraw,1200.0,srinithi
+2026-06-23,Withdraw,300.0,srinithi
+2026-06-23,Deposit,3000.0,srinithi
+2026-06-23,Deposit,2000.0,srinithi
+2026-06-23,Withdraw,3000.0,srinithi
+2026-06-23,Deposit,2000.0,srinithi
+2026-06-23,Deposit,1000.0,srinithi
+2026-06-23,Withdraw,2000.0,srinithi
+2026-06-23,Deposit,1000.0,dhanushya
+2026-06-23,Withdraw,2000.0,dhanushya
+2026-06-23,Deposit,1000.0,harini
+2026-06-23,Withdraw,3000.0,harini
+2026-06-23,Withdraw,10000.0,harini
+2026-06-24,Deposit,1200.0,srinithi

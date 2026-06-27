@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/21"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="LoginController.Logincontroller">
+
+    <VBox alignment="CENTER"
+          spacing="15"
+          maxWidth="350"
+          style="-fx-background-color:white;
+                 -fx-padding:30;
+                 -fx-background-radius:15;
+                 -fx-border-radius:15;
+                 -fx-border-color:lightgray;">
+
+        <Label text="🏦 Smart Banking System"
+               style="-fx-font-size:22px; -fx-font-weight:bold;"/>
+
+        <TextField fx:id="usernameField"
+                   promptText="Username"/>
+
+        <PasswordField fx:id="passwordField"
+                       promptText="Password"/>
+
+        <Button text="Login"
+                maxWidth="Infinity"
+                onAction="#login"/>
+
+        <Button text="New User? Register"
+                maxWidth="Infinity"
+                onAction="#openRegister"/>
+
+        <Label fx:id="message"/>
+
+    </VBox>
+
+</StackPane>                	
