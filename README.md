@@ -60,21 +60,19 @@ git clone https://github.com/YourUsername/SmartBankingSystem.git
 
 ### Login Page
 
-(Add Login Screenshot Here)
+![Login](images/LoginPage.png)
 
 ### Dashboard
 
-(Add Dashboard Screenshot Here)
+![Dashboard](images/Dashboard.png)
 
 ### Deposit Page
 
-(Add Screenshot Here)
+![Deposit](images/Deposit.png)
 
 ### Withdraw Page
 
-(Add Screenshot Here)
-
----
+![Withdraw](images/Withdraw.png)
 
 ## 👩‍💻 Author
 
